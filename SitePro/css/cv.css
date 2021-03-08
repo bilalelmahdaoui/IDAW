@@ -1,40 +1,94 @@
 * {
   color: #1D2840;
+  font-weight: 600;
+  font-family: 'Montserrat';
 }
 
 .cv_page {
-  display: flex;
+  width: 820px;
+  height: 1160px;
   border: 3px solid #1D2840;
   margin-top: 10px;
 }
 
 .cv_header {
   display: flex;
-  height: 200px;
+  align-items: center;
+  /* height: 200px; */
   width: 100%;
-  padding: 15px;
+  max-height: 195px;
+  padding: 20px;
   background-color: #1D2840;
 }
 
 .cv_infos {
-  margin-left: 20px;
+  width: 100%;
+  margin-left: 40px;
 }
 
 .cv_photo {
-  height: 100%;
-  border-radius: 100px;
-  border: 3px solid #fff;
+  align-self: center;
+  height: 174px;
+  width: 174px;
+  border-radius: 150px;
+  border: 2px solid #fff;
+}
+
+.cv_infos_top {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #4690e9;
 }
 
 .cv_title {
   color: white;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.1em;
 }
 
 .cv_name {
   color: white;
   text-transform: uppercase;
-  font-weight: 450;
-  font-size: 3em;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.cv_infos_bottom {
+  display: flex;
+  width: 100%;
+  flex-direction: space-between;
+}
+
+.cv_infos_bottom_details {
+  font-weight: 500 !important;
+  width: 100%;
+}
+
+.cv_infos_bottom_details > h3 {
+  color: #4690e9;
+  font-weight: 600;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.cv_infos_bottom_details > p {
+  color: white;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+
+.cv_infos_bottom_details > p > strong {
+  color: #4690e9;
+  font-weight: 600;
+}
+
+/* ===================== */
+
+.cv_main {
+  padding: 20px;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #4690e9;
+  font-weight: 1000;
 }

@@ -12,6 +12,8 @@ h2 {
   color: #1D2840;
 }
 
+
+
 @media only screen and (min-width: 860px) {
   /* For tablets: */
   body {
@@ -81,6 +83,7 @@ h2 {
   padding: 0px 20px 20px 20px;
   min-height: 130px;
   border: 2px solid #4690e9;
+  border-radius: 5px;
 }
 
 .home_section > p {
@@ -90,6 +93,7 @@ h2 {
 
 .home_image {
   object-fit: contain;
+  border-radius: 5px;
   border: 2px solid #4690e9;
   float: right;
   width: 200px;
@@ -136,13 +140,20 @@ h2 {
 
 
 code {
+  border-radius: 5px;
   margin-top: 10px;
   padding: 10px !important;
   display: block;
   font-family: Consolas,"courier new";
   font-weight: 500;
   color: #fff;
-  background-color: #8ab1e1;
   padding: 2px;
   font-size: 105%;
+  background-image: linear-gradient(to right, #8ab1e1 , #9bbce4);
+}
+
+@media only screen and (min-width: 1388px) {
+  code {
+    background-image: linear-gradient(to right, #8ab1e1 , #eaf0f7) !important;
+  }
 }

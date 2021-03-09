@@ -13,13 +13,24 @@ body {
   .bdf_image_mobile {
     display: block !important;
   }
+  .project_image_desktop{
+    width: 500px !important;
+    float: right;
+    margin-left: 0px;
+  }
+  /* .project_image_desktop {
+    display: none;
+  }
+  .project_image_mpbile {
+    display: block !important;
+  } */
 }
 
 * {
   font-family: 'Montserrat';
 }
 
-ul {
+.menu > ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -88,4 +99,15 @@ ul {
 .bdf_image_desktop {
   object-fit: contain;
   width: 100%;
+}
+
+
+/* ================ */
+
+
+.project_image_desktop {
+  object-fit: contain;
+  width: 90%;
+  margin-left: 20px;
+  margin-bottom: 0px;
 }

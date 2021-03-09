@@ -1,12 +1,12 @@
 * {
   color: #1D2840;
-  font-weight: 600;
   font-family: 'Montserrat';
+  font-weight: 500;
 }
 
 .cv_page {
-  width: 820px;
-  height: 1160px;
+  width: 860px;
+  min-height: 1160px;
   border: 3px solid #1D2840;
   margin-top: 10px;
 }
@@ -15,10 +15,11 @@
   display: flex;
   align-items: center;
   /* height: 200px; */
-  width: 100%;
+  width: auto;
   max-height: 195px;
   padding: 20px;
-  background-color: #1D2840;
+  /* background-color: #1D2840; */
+  background-image: linear-gradient(to top, #223355 , #182339);
 }
 
 .cv_infos {
@@ -35,20 +36,20 @@
 }
 
 .cv_infos_top {
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   border-bottom: 2px solid #4690e9;
 }
 
 .cv_title {
   color: white;
-  font-weight: 600;
-  font-size: 1.1em;
+  font-weight: 500;
+  font-size: 0.9em;
 }
 
 .cv_name {
   color: white;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 2.5em;
 }
 
@@ -85,10 +86,117 @@
 
 .cv_main {
   padding: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
+.cv_main_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.cv_main_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+hr {
+  background-color: #4690e9;
+  border: 1px solid #4690e9;
+  border-radius: 3px;
+}
+
+.horizontal {
+  width: 100%;
+}
+
+/* ===================== */
+
+
+
+#cv_parascolaire {
+  margin-top: 20px;
+} 
+
 h2 {
+  margin-top: 0px;
   text-transform: uppercase;
   color: #4690e9;
-  font-weight: 1000;
+  font-family: 'Montserrat-medium';
+}
+
+h4 {
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+
+section > p {
+  margin-left: 10px;
+}
+
+section > p{
+  font-size: 13px !important;
+}
+
+b {
+  font-weight: 600;
+}
+
+#cv_langues {
+  border-bottom: none;
+  margin-top: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+/* ===================== */
+
+.cv_main {
+  width: 100%;
+  display: flex;
+}
+
+
+#cv_stages > article > span {
+  margin: 0px;
+  padding: 0px;
+  font-size: 13px;
+}
+
+h5 {
+  margin-bottom: 0px;
+  margin-top: 10px;
+  color: #4690e9;
+  font-weight: 600;
+  padding-bottom: 0px;
+}
+
+.stage_details {
+  margin-left: 10px;
+}
+
+.stage_details > div > p {
+  margin-top: 0px;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+#cv_competences {
+  padding-bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.h_seperator {
+  background-color: #4690e9;
+  height: 3px;
+  border-radius: 10px;
+  width: 100%;
 }

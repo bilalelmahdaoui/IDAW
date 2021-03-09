@@ -4,6 +4,10 @@
   font-weight: 500;
 }
 
+a {
+  color: #4690e9
+}
+
 h1 {
   font-weight: 700;
 }
@@ -75,10 +79,15 @@ h1 {
   text-transform: uppercase;
 }
 
-.cv_infos_bottom_details > p {
+.cv_infos_bottom_details > p  {
   color: white;
   font-weight: 600;
   font-size: 0.8em;
+}
+
+.cv_infos_bottom_details > p > a {
+  color: white;
+  font-weight: 600;
 }
 
 .cv_infos_bottom_details > p > strong {

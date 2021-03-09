@@ -1,5 +1,15 @@
 body {
   padding-inline: 40px;
+  color: #1D2840;
+}
+
+a {
+  text-decoration: none;
+  color: #4690e9;
+}
+
+h2 {
+  color: #1D2840;
 }
 
 @media only screen and (min-width: 860px) {
@@ -110,4 +120,29 @@ body {
   width: 90%;
   margin-left: 20px;
   margin-bottom: 0px;
+}
+
+.taquin_gif {
+  object-fit: contain;
+  float: right;
+  height: 300px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.taquin_section {
+  min-height: 400px;
+}
+
+
+code {
+  margin-top: 10px;
+  padding: 10px !important;
+  display: block;
+  font-family: Consolas,"courier new";
+  font-weight: 500;
+  color: #fff;
+  background-color: #8ab1e1;
+  padding: 2px;
+  font-size: 105%;
 }

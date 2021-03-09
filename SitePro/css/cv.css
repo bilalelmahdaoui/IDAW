@@ -4,6 +4,10 @@
   font-weight: 500;
 }
 
+h1 {
+  font-weight: 700;
+}
+
 .cv_page {
   width: 860px;
   min-height: 1160px;

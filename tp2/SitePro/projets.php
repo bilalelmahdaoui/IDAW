@@ -1,13 +1,7 @@
 <?php
 require_once('template_header.php');
+require_once('template_menu.php');
 ?>
-    <nav class="menu">
-      <ul>
-        <li><a href="index.php">Accueil</a></li>
-        <li><a href="cv.php">CV</a></li>
-        <li><a id="currentPage" href="projets.php">Projets</a></li>
-      </ul>
-    </nav>
     <h1>Mes projets</h1>
     <section class="home_section">
       <h2>Podcast App with Flutter</h2>

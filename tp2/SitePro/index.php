@@ -1,13 +1,7 @@
 <?php
 require_once('template_header.php');
+require_once('template_menu.php');
 ?>
-    <nav class="menu">
-      <ul>
-        <li><a id="currentPage" href="index.php">Accueil</a></li>
-        <li><a href="cv.php">CV</a></li>
-        <li><a href="projets.php">Projets</a></li>
-      </ul>
-    </nav>
     <h1>Qui suis-je ?</h1>
     <section class="home_section">
       <h2>Introduction</h2>

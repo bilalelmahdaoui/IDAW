@@ -200,5 +200,6 @@ require_once('template_header.php');
 
       </div>
     </div>
-  </body>
-</html>
+  </div>
+
+  <?php require_once('template_footer.php'); ?>

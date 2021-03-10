@@ -100,5 +100,4 @@ require_once('template_header.php');
         l’impression sur des t shirts
       </p>
     </section>
-  </body>
-</html>
+    <?php require_once('template_footer.php'); ?>

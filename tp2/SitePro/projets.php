@@ -67,5 +67,4 @@ require_once('template_header.php');
         </code>
       </p>
     </section>
-  </body>
-</html>
+    <?php require_once('template_footer.php'); ?>

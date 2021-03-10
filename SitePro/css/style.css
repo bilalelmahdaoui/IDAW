@@ -1,5 +1,13 @@
+html, body {
+  height: 100% !important;
+  min-height: 100% !important;
+}
+
 body {
   padding-inline: 40px;
+  min-height: 100%;
+  margin-top: 0px;
+  margin-bottom: 0px;
   color: #1D2840;
   font-family: 'Montserrat';
 }
@@ -50,7 +58,7 @@ h2 {
 /* Add a black background color to the top navigation */
 .menu {
   background-color: #1D2840;
-  border-radius: 5px;
+  border-radius: 0px 0px 10px 10px;
   overflow: hidden;
 }
 
@@ -82,7 +90,7 @@ h2 {
   padding: 0px 20px 20px 20px;
   min-height: 130px;
   border: 2px solid #4690e9;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .home_section > p {
@@ -92,7 +100,7 @@ h2 {
 
 .home_image {
   object-fit: contain;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 2px solid #4690e9;
   float: right;
   width: 200px;
@@ -139,7 +147,7 @@ h2 {
 
 
 code {
-  border-radius: 5px;
+  border-radius: 10px;
   margin-top: 10px;
   padding: 10px !important;
   display: block;
@@ -155,4 +163,18 @@ code {
   code {
     background-image: linear-gradient(to right, #8ab1e1 , #eaf0f7) !important;
   }
+}
+
+
+footer {
+  padding: 20px;
+  height: 120px;
+  background-color: #1D2840;
+  margin-top: 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
 }

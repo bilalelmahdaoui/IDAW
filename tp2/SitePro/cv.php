@@ -1,25 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/cv.css" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800" rel="stylesheet" />
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      href="https://i.imgur.com/ExAGqNt.png"
-    />
-  <title>CV</title>
-  </head>
-  <body>
+<?php
+require_once('template_header.php');
+?>
     <nav class="menu">
       <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a id="currentPage" href="cv.html">CV</a></li>
-        <li><a href="projets.html">Projets</a></li>
+        <li><a href="index.php">Accueil</a></li>
+        <li><a id="currentPage" href="cv.php">CV</a></li>
+        <li><a href="projets.php">Projets</a></li>
       </ul>
     </nav>
 

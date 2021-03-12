@@ -1,6 +1,9 @@
 <?php
 require_once('template_header.php');
+?>
+<?php
 require_once('template_menu.php');
+renderMenuToHTML('projets');
 ?>
     <h1>Mes projets</h1>
     <section class="home_section">

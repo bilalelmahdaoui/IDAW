@@ -1,6 +1,9 @@
 <?php
 require_once('template_header.php');
+?>
+<?php
 require_once('template_menu.php');
+renderMenuToHTML('index');
 ?>
     <h1>Qui suis-je ?</h1>
     <section class="home_section">

@@ -1,12 +1,15 @@
 <?php
 require_once('template_header.php');
+?>
+<?php
 require_once('template_menu.php');
+renderMenuToHTML('cv');
 ?>
 
     <h1>Mon CV</h1>
 
     <p>Ce CV est purement construit avec que du HTML et CSS.</p>
-    <a href="https://drive.google.com/file/d/1Klq4WoaqWWsJHpBZNxOXgWGnlVyGQUCS/view?usp=sharing">Cliquez pour voir la version originale (PDF)</a>
+    <a href="https://drive.google.com/file/d/1Klq4WoaqWWsJHpBZNxOXgWGnlVyGQUCS/view?usp=sharing" target="_blank">Cliquez pour voir la version originale (PDF)</a>
   
     <div class="cv_page">
       <div class="cv_header">

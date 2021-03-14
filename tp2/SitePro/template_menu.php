@@ -2,7 +2,7 @@
 function renderMenuToHTML($currentPageId) {
   
   $mymenu = array(
-    'index' => array('Accueil', ""),
+    'accueil' => array('Accueil', ""),
     'cv' => array('CV', ""),
     'projets' => array('Projets', "")
   );
@@ -13,7 +13,7 @@ function renderMenuToHTML($currentPageId) {
     if($pageId == $currentPageId) {
       $mymenu[$pageId][1] = "id='currentPage' ";
     }
-    echo "<li><a {$mymenu[$pageId][1]}href='$pageId.php'>{$mymenu[$pageId][0]}</a></li>";
+    echo "<li><a {$mymenu[$pageId][1]}href='index.php?page={$pageId}'>{$mymenu[$pageId][0]}</a></li>";
   }
 
   echo "</ul></nav>";

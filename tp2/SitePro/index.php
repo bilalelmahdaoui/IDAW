@@ -1,7 +1,8 @@
 <?php
   require_once("template_header.php");
   require_once("template_menu.php");
-  $currentPageId = 'index';
+
+  $currentPageId = 'accueil';
     if(isset($_GET['page'])) {
     $currentPageId = $_GET['page'];
   }
@@ -11,11 +12,9 @@
   renderMenuToHTML($currentPageId);
 ?>
 
-<h1>Qui suis-je ?</h1>
-
 <section class="corps">
   <?php
-    $pageToInclude = $currentPageId . "_content.php";
+    $pageToInclude = $currentPageId . ".php";
     if(is_readable($pageToInclude))
       require_once($pageToInclude);
     else

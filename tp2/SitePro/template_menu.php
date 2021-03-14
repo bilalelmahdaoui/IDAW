@@ -4,7 +4,8 @@ function renderMenuToHTML($currentPageId) {
   $mymenu = array(
     'accueil' => array('Accueil', ""),
     'cv' => array('CV', ""),
-    'projets' => array('Projets', "")
+    'projets' => array('Projets', ""),
+    'contact' => array('Contact', "")
   );
   
   echo "<nav class='menu'><ul>";

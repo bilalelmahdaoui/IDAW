@@ -58,7 +58,7 @@ h2 {
 /* Add a black background color to the top navigation */
 .menu {
   background-color: #1D2840;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 5px 5px;
   overflow: hidden;
 }
 
@@ -90,7 +90,7 @@ h2 {
   padding: 0px 20px 20px 20px;
   min-height: 130px;
   border: 2px solid #4690e9;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .home_section > p {
@@ -100,7 +100,7 @@ h2 {
 
 .home_image {
   object-fit: contain;
-  border-radius: 10px;
+  border-radius: 5px;
   border: 2px solid #4690e9;
   float: right;
   width: 200px;
@@ -147,7 +147,7 @@ h2 {
 
 
 code {
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: 10px;
   padding: 10px !important;
   display: block;
@@ -175,6 +175,41 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
   overflow: hidden;
+}
+
+/* ================ */
+
+input[type=text], input[type=email], textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4690E9;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #5a9cec;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }

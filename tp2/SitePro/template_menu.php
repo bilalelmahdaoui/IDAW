@@ -1,5 +1,6 @@
 <?php
-function renderMenuToHTML($currentPageId) {
+
+function renderMenuToHTML($currentPageId, $lang) {
   
   $mymenu = array(
     'accueil' => array('Accueil', ""),
@@ -8,16 +9,22 @@ function renderMenuToHTML($currentPageId) {
     'contact' => array('Contact', "")
   );
   
-  echo "<nav class='menu'><ul>";
+  echo "<div class='header'>
+          <nav class='menu'><ul>";
 
   foreach($mymenu as $pageId => $pageParameters) {
     if($pageId == $currentPageId) {
       $mymenu[$pageId][1] = "id='currentPage' ";
     }
-    echo "<li><a {$mymenu[$pageId][1]}href='index.php?page={$pageId}'>{$mymenu[$pageId][0]}</a></li>";
+    echo "<li><a {$mymenu[$pageId][1]}href='index.php?page={$pageId}&lang={$lang}'>{$mymenu[$pageId][0]}</a></li>";
   }
 
-  echo "</ul></nav>";
+  echo "</ul></nav>
+    <div class='langs'>
+      <a href=''>Français</a> | 
+      <a href=''>English</a>
+    </div>
+  </div>";
   }
 ?>
   

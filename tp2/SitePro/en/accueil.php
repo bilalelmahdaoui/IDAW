@@ -3,7 +3,7 @@
       <h2>Introduction</h2>
       <img
         class="home_image"
-        src="https://scontent-cdt1-1.xx.fbcdn.net/v/t1.0-9/129524849_3638471702863205_1266893178302400808_o.jpg?_nc_cat=106&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=pMgqWQFBIj0AX_C78d1&_nc_ht=scontent-cdt1-1.xx&oh=95076cd9867e7dbce8dcb3732677ba22&oe=606D3F4A"
+        src="https://i.imgur.com/cJFpvIf.jpg"
       />
       <p class="content">
       My name is Bilal El Mahdaoui, I am 21 years old and I am currently a general engineering student at the Institut Mines Telecom Lille Douai in the field of "Digital sciences and technologies"

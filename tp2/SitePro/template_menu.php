@@ -23,7 +23,7 @@ function renderMenuToHTML($currentPageId, $lang) {
   echo "</ul></nav>
     <div class='langs'>
       <a href='index.php?page={$currentPageId}&lang=fr'>Français</a> | 
-      <a href='index.php?page={$currentPageId}&lang=en'>English</a> | 
+      <a href='index.php?page={$currentPageId}&lang=en'>English</a>
     </div>
   </div>";
   }

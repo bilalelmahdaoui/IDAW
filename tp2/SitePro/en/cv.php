@@ -73,6 +73,12 @@
             2018		-		Designer at MCC</p>
         </p>
         <p>
+          <h4 class="cv_section_title">Moroccan Olympiads of Informatics (MOI)</h4>
+          <p>2020		-		Head of Media Team<br/>
+            2019		-		Membre of Media Team<br/>
+            2019		-		Freelancer</p>
+        </p>
+        <p>
           <h4 class="cv_section_title">AIAC IT Club</h4>
           <p>2019		-		President of AIAC IT Club<br/>
             2018		-		Member of AIAC IT Club</p>
@@ -122,24 +128,24 @@
         </article>
 
         <article>
-          <h4 class="cv_section_title">Projet Full Stack - Application Mobile : Covid Stats</h4>
+          <h4 class="cv_section_title">Full Stack Project - Covid Stats Mobile Application</h4>
           <div class="stage_details">
             <div>
-              <h5>Technologies utilisées :</h5>
+              <h5>Used Technologies :</h5>
               <p>JavaScript, Node.js, React Native, JSON.</p>
             </div>
             <div>
-              <h5>Lien Github :</h5>
-              <p><a>github.com/bilalelmahdaoui/covid-stats</a></p>
+              <h5>Github repo :</h5>
+              <p>github.com/bilalelmahdaoui/covid-stats</p>
             </div>
           </div>
         </article>
 
         <article>
-          <h4 class="cv_section_title">Projet Full Stack - Application Web E-commerce</h4>
+          <h4 class="cv_section_title">Full Stack Project - E-commerce Web Application</h4>
           <div class="stage_details">
             <div>
-              <h5>Technologies utilisées :</h5>
+              <h5>Used Technologies :</h5>
               <p>JavaScript, Node.js, React, JSX, Redux, Firebase, JSON HTML, CSS & BootStrap.</p>
             </div>
           </div>
@@ -151,35 +157,33 @@
 
 
       <section id="cv_competences">
-        <h2>Compétences</h2>
+        <h2>Skills</h2>
         <p>
-          <h4 class="cv_section_title">Ingénierie Logicielle</h4>
-          <p>- Génie Logiciel			- UML<br/>
+          <h4 class="cv_section_title">Génie Logiciel</h4>
+          <p>- Merise			- UML<br/>
             - Scrum Foundation Professional Certificate</p>
         </p>
         <p>
-          <h4 class="cv_section_title">Réseaux et Télécommunication</h4>
+          <h4 class="cv_section_title">Networking and Telecommunication</h4>
+          <p>- Certification Cisco CCNA 1 & CCNA 2</p>
+        </p>
+        <p>
+          <h4 class="cv_section_title">Programming Languages</h4>
           <p>- Javascript					- C/C++<br/>
             - 	HTML & CSS				- Python<br/>
             - Java SE / EE				- PHP</p>
         </p>
         <p>
-          <h4 class="cv_section_title">Langages de programmation</h4>
-          <p>- Javascript					- C/C++<br/>
-            - 	HTML & CSS				- Python<br/>
-            - Java SE / EE				- PHP</p>
-        </p>
-        <p>
-          <h4 class="cv_section_title">Frameworks et technologies</h4>
+          <h4 class="cv_section_title">Frameworks and Technologies</h4>
           <p>- React 						- Node.js<br/>
             -	Angular 					- Express.js<br/>
             - React Native      - Redux</p>
         </p>
         <p>
-          <h4 class="cv_section_title">Autres</h4>
-          <p>- MongoDB		- Administration Linux<br/>
-            -	MySQL			- Version Control & Git<br/>
-            - Firebase			- Développement Agile</p>
+          <h4 class="cv_section_title">Other</h4>
+          <p>- MongoDB 						- Linux Administration<br/>
+            -	MySQL 						- Version Control & Git<br/>
+            - Firebase 						- Agile Development</p>
         </p>
       </section>
 

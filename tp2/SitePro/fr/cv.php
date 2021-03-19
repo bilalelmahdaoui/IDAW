@@ -73,6 +73,12 @@
             2018		-		Comité d’organisation du MCC</p>
         </p>
         <p>
+          <h4 class="cv_section_title">Moroccan Olympiads of Informatics (MOI)</h4>
+          <p>2020		-		Chef de la cellule Media<br/>
+            2019		-		Membre de l’équipe Media<br/>
+            2019		-		Freelancer</p>
+        </p>
+        <p>
           <h4 class="cv_section_title">Club Informatique - AIAC</h4>
           <p>2019		-		Président du Club Informatique
             2018		-		Membre du Club Informatique</p>
@@ -81,10 +87,6 @@
           <h4 class="cv_section_title">bilaldesignfirm</h4>
           <p>2020		- 		Création de ma marque bilaldesignfirm<br/>
             2020		-		Designer chez plusieurs entreprises</p>
-        </p>
-        <p>
-          <h4 class="cv_section_title">Baccalauréat scientifique</h4>
-          <p>2015/2016		-		Baccalauréat scientifique branche sciences mathématiques A</p>
         </p>
       </section>
 
@@ -163,9 +165,8 @@
         </p>
         <p>
           <h4 class="cv_section_title">Réseaux et Télécommunication</h4>
-          <p>- Javascript					- C/C++<br/>
-            - 	HTML & CSS				- Python<br/>
-            - Java SE / EE				- PHP</p>
+          <p>- Certification Cisco CCNA 1 et CCNA 2</p>
+
         </p>
         <p>
           <h4 class="cv_section_title">Langages de programmation</h4>

@@ -3,10 +3,10 @@
 function renderMenuToHTML($currentPageId, $lang) {
   
   $mymenu = array(
-    'accueil' => array('Accueil', ""),
-    'cv' => array('CV', ""),
-    'projets' => array('Projets', ""),
-    'contact' => array('Contact', "")
+    'accueil' => array('Accueil', '', 'Home'),
+    'cv' => array('CV', '', 'CV'),
+    'projets' => array('Projets', '', 'Projects'),
+    'contact' => array('Contact', '', 'Contact')
   );
   
   echo "<div class='header'>
@@ -16,7 +16,8 @@ function renderMenuToHTML($currentPageId, $lang) {
     if($pageId == $currentPageId) {
       $mymenu[$pageId][1] = "id='currentPage' ";
     }
-    echo "<li><a {$mymenu[$pageId][1]}href='index.php?page={$pageId}&lang={$lang}'>{$mymenu[$pageId][0]}</a></li>";
+    if ($lang=="en")echo "<li><a {$mymenu[$pageId][1]}href='index.php?page={$pageId}&lang={$lang}'>{$mymenu[$pageId][2]}</a></li>";
+    else echo "<li><a {$mymenu[$pageId][1]}href='index.php?page={$pageId}&lang={$lang}'>{$mymenu[$pageId][0]}</a></li>";
   }
 
   echo "</ul></nav>

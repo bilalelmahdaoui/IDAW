@@ -7,7 +7,7 @@
   if(isset($_GET['page'])) {
     $currentPageId = $_GET['page'];
   }
-  if(isset($_GET['lang'])) {
+  if(isset($_GET['lang']) && ($_GET['lang'] == 'en' || $_GET['lang'] == 'fr')) {
     $lang = $_GET['lang'];
   }
 ?>
@@ -18,7 +18,7 @@
 
 <section class="corps">
   <?php
-    $pageToInclude = $currentPageId . ".php";
+    $pageToInclude = ${lang} . '/' . $currentPageId . '.php';
     if(is_readable($pageToInclude))
       require_once($pageToInclude);
     else

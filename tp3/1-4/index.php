@@ -5,7 +5,6 @@ session_start();
           <nav>
             <ul>
               <li><a href=\"login.php\">Login</a></li>
-              <li><a href=\"index.php\">Back to Homepage</a></li>
             </ul>
           </nav>";
   }

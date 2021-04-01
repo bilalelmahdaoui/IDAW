@@ -29,7 +29,8 @@ function insertData(data) {
   cells["dateNaissance"].innerHTML = data.dateNaissance;
   cells["aimeCours"].innerHTML = data.aimeCours;
   cells["remarques"].innerHTML = data.remarques;
-  cells["crud"].innerHTML = data.crud;
+  cells["crud"].innerHTML = `<a onClick="onEditRow(this)">Modifier</a> |
+   <a onClick="onDeleteRow(this)">Supprimer</a>`;
 }
 
 function resetForm() {

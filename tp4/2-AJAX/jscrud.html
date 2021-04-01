@@ -8,17 +8,24 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+  <script src="jquery-3.5.1.min.js"></script>
   <title>tabletest</title>
+
 </head>
 
 <body>
+  <div>
+    <h1>Remarque</h1>
+    <p>Veuillez changer le fichier <strong>config.php</strong> pour changer le nom du host, utilisateur, mot de passe,
+      nom de la base de données et de la table.</p>
+  </div>
   <table class="table" id="studentsTableBody">
     <thead>
       <tr>
         <th scope="col">Nom</th>
         <th scope="col">Prenom</th>
         <th scope="col">Date de naissance</th>
-        <th scope="col">Aime le cours Web</th>
+        <th scope="col">Aime le cours Web?</th>
         <th scope="col">Remarques</th>
         <th scope="col">CRUD</th>
       </tr>
@@ -27,8 +34,8 @@
   </table>
   <!-- ------------------- -->
   <!-- ------------------- -->
-  <form id="addStudentForm" action="" onsubmit="onFormSubmit();">
-    <!-- autocomplete="off" -->
+  <form id="addStudentForm" onsubmit="onFormSubmit();" autocomplete="off">
+
     <div class="form-group row">
       <label for="nom" class="col-sm-3 col-form-label">Nom*</label>
       <div class="col-sm-3">
@@ -42,18 +49,15 @@
       </div>
     </div>
     <div class="form-group row">
-      <label for="dateNaissance" class="col-sm-3 col-form-label">Date de naissance*</label>
+      <label for="date_naissance" class="col-sm-3 col-form-label">Date de naissance*</label>
       <div class="col-sm-3">
-        <input type="date" class="form-control" id="dateNaissance" />
+        <input type="date" class="form-control" id="date_naissance" />
       </div>
     </div>
     <div class="form-group row">
-      <label for="aimeCours" class="col-sm-3 col-form-label">Aime le cours Web*</label>
+      <label for="aime_cours" class="col-sm-3 col-form-label">Aime le cours Web*</label>
       <div class="col-sm-3">
-        <select class="form-control" id="aimeCours">
-          <option value="Oui" selected>Oui</option>
-          <option value="Ouiiii">Ouiiii</option>
-        </select>
+        <input type="checkbox" class="form-check-inline" id="aime_cours">
       </div>
     </div>
     <div class="form-group row">
